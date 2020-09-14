@@ -186,9 +186,15 @@ main {
 }
 
 .directory_link {
+		display: block;
+		margin-bottom: 3em;
+}
+
+.directory_link a {
 	font-size: 0.75em;
 	color: #F28322;
 	text-decoration: none;	
+	font-family: "helvetica", arial, sans-serif;
 }
 
 .portfolio_photo {

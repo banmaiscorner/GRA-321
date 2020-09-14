@@ -37,6 +37,15 @@ h2{
 	position: relative;
 }
 
+.directory_link {
+	font-size: 1em;
+	color: #F28322;
+	text-decoration: none;	
+	font-family: "helvetica", arial, sans-serif;
+	padding-bottom: 3em;
+	display: block;
+}
+
 #banner_tablet {
 	display: none;
 }
@@ -124,6 +133,8 @@ main {
 	margin-right: 4%;
 	float:left;
 }
+
+
 
 .portfolio_projects_title {
 	font-family: "helvetica", arial, sans-serif;
