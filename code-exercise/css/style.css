@@ -13,6 +13,13 @@
 	src: url(fonts/HelveticaLTStd-Bold.otf);
 }
 
+#mag-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 20px;
+	grid-row-gap: 50px;
+}
+
 header {
 	width: 100%;
 	display: block;
