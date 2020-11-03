@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "asap";
+	font-weight: 400;
+	src: url("../fonts/Asap-Regular.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "asap";
+	font-weight: 900;
+	src: url("../fonts/Asap-Bold.ttf");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "asap";
+	font-weight: 600;
+	src: url("../fonts/Asap-Medium.ttf");
+	font-display: swap;
+}
+
+
+
+
+
+
+
+
+/* body */
+/* body */
+
+body {
+	font-family: "asap";
+	font-size:  16px;
+	color: #1A2D30;
+	background-color: #FFFDF5;
+	margin: 3.45% 5%;
+}
+
+body h1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1A2D30;
+}
+
+h1 {
+	display: block;
+	margin: 1.8em 0em 0.6em 0em;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 900;
+	color: #B07A1F;
+}
+
+h3 {
+	font-size: 17.9px;
+	font-weight: 600;
+	color: #B07A1F;
+	margin: 0.3em 0;
+}
+
+img {
+	background-color: #5D726A;
+}
+
+/* body */
+/* body */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav */
+/* nav */
+
+/* make icon bar */
+.icon-bar {
+	display: block;
+	background-color: #1A2D30;
+	width: 23px;
+	height: 3px;
+	border-radius: 3px;
+	margin: 4px 0;
+}
+
+
+
+/* Style the navigation menu */
+nav {
+	overflow: hidden;
+	position: relative;
+}
+
+/* menu button */
+#menu-button {
+		display: block;
+		width: 5em;
+		padding: 0.2em 1.2em;
+		background-color: #1A2D30;
+		color: white;
+		font-weight: 900;
+		border-radius: 16px;
+}
+
+a#menu-button:hover {
+	text-decoration: none;
+	color: #B07A1F;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+nav #drop-down-nav {
+	display: none;
+}
+
+/* Style navigation menu links */
+#drop-down-nav {
+	margin-top: 1.5em;
+	display: block;
+}
+
+#drop-down-nav a {
+	font-weight: 900;
+	color: #1A2D30;
+	text-decoration: none;
+	padding: 0.5em 8% 0 0;
+	display: block;
+}
+
+/* Style the hamburger menu */
+nav a.icon{
+	display: block;
+	position: absolute;	
+	left: 0;
+	top: 0;	
+}
+
+/* Add a grey background color on mouse-over */
+#drop-down-nav a:hover {
+	text-decoration: none;
+	color: #B07A1F;
+}
+
+
+/* Style the active link (or home/logo) */
+.active {
+	font-weight: 900;
+	color: #1A2D30;
+}
+/* nav */
+/* nav */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* promotion */
+/* promotion */
+
+.promotion-background {
+	background-color: #1A2D30;
+	color: #FFFDF5;
+	display: grid;
+	position: relative;
+	margin: 5% 0;
+}
+
+.promo-content {
+	display: block;
+	margin: 3.45% 5% 8% 5%;
+}
+
+#promo {
+	display:block; 
+	padding-bottom: 8%;
+}
+
+/* promotion */
+/* promotion */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dark bacckground */
+/* dark bacckground */
+
+.dark-background {
+	background-color: #1A2D30;
+	color: #FFFDF5;
+	padding: 0% 5% 13% 5%;
+	margin: 0% -5.6%;
+}
+
+.dark-background h1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #FFFDF5;
+}
+
+
+/* dark bacckground */
+/* dark bacckground */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* menu */
+/* menu */
+.menu-4columns {
+	display: grid;
+	grid-template-columns: 50% 10% 10% 10%;
+	grid-column-gap: 3%;
+	position: relative;
+}
+
+.menu-with-big{
+	display: block;
+	padding-top: 1.47em;
+}
+
+.menu-2columns {
+	display: grid;
+	grid-template-columns: 50% 47%;
+	grid-column-gap: 3%;
+}
+
+.sidenote {
+	font-size: 12px;
+	display: block;
+	margin: 0;
+}
+
+#actual-drink {
+	padding-bottom: 15%;
+}
+/* menu */
+/* menu */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* store */
+/* store */
+.merch-name {
+	font-weight: 900;
+}
+.merch-item {
+	display: block;
+	margin-bottom: 8%;
+}
+#store {
+	display: block;
+	padding-bottom: 5%;
+}
+/* store */
+/* store */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about us */
+/* about us */
+#contact {
+	display: block;
+	padding-bottom: 10%;
+}
+.contact-name {
+	font-weight: 900;
+	color: #B07A1F;
+	display: block;
+	margin-bottom: 0px;
+}
+/* about us */
+/* about us */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media */
+@media (max-width: 767px) {
+	
+	/* logo position */
+	#logo {
+		float: left;
+		margin-left: 8%;
+	}
+	
+	#menu-button {
+		margin-left: 35%;
+	}
+	
+	
+	.promotion-background {
+		width:94%;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-column-gap: 3.5%;
+	}
+	
+}
