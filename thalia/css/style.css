@@ -89,6 +89,13 @@ img {
 /* nav */
 /* nav */
 
+/* logo */
+#logo {
+	height: 30px;
+	background: none;
+}
+
+
 /* make icon bar */
 .icon-bar {
 	display: block;
@@ -115,6 +122,7 @@ nav {
 		color: white;
 		font-weight: 900;
 		border-radius: 16px;
+		margin-top: 5px;
 }
 
 a#menu-button:hover {
@@ -145,8 +153,9 @@ nav #drop-down-nav {
 nav a.icon{
 	display: block;
 	position: absolute;	
+	padding-top: 5px;
 	left: 0;
-	top: 0;	
+	top: 0px;	
 }
 
 /* Add a grey background color on mouse-over */
@@ -225,7 +234,6 @@ nav a.icon{
 .dark-background {
 	background-color: #1A2D30;
 	color: #FFFDF5;
-	padding: 0% 5% 13% 5%;
 	margin: 0% -5.6%;
 }
 
@@ -260,6 +268,8 @@ nav a.icon{
 
 /* menu */
 /* menu */
+
+/* menu layout */
 .menu-4columns {
 	display: grid;
 	grid-template-columns: 50% 10% 10% 10%;
@@ -285,8 +295,36 @@ nav a.icon{
 }
 
 #actual-drink {
-	padding-bottom: 15%;
+	padding: 0 5% 15%;
 }
+
+#actual-snack {
+	padding: 0 5% 15%;
+}
+
+#trail-mix-spacing {
+	display: block;
+	margin-bottom: 1.2em;
+}
+
+/* menu photo */
+.menu-photo {
+	width: 100%;
+	height: 30vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+
+#snack-photo {
+	background-image: url("../images/nuts.jpg");
+}
+
+#drink-photo {
+	background-image: url("../images/tea feild.jpg");
+}
+
+
 /* menu */
 /* menu */
 
@@ -312,13 +350,39 @@ nav a.icon{
 
 /* store */
 /* store */
+.merch-item {
+	margin: 3% 0 8%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.merch-item-wrap {
+	display: inline-grid;
+	padding: 0;
+	width: 60%;
+	margin-right: 5%;
+}
+
+.merch-photo {
+	width: 100%;
+}
+
+.merch-info {
+	display: block;
+	width: 100%;
+	margin-top: 1em;
+}
+
 .merch-name {
 	font-weight: 900;
+	float: left;
 }
-.merch-item {
-	display: block;
-	margin-bottom: 8%;
+
+.merch-price {
+	float: right;
 }
+
 #store {
 	display: block;
 	padding-bottom: 5%;
@@ -326,6 +390,38 @@ nav a.icon{
 /* store */
 /* store */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Story of Thalias */
+/* Story of Thalias */
+
+#thalias-story {
+	padding: 0 5% 15%;
+}
+
+#thalia-photo {
+	background-image: url("../images/thalias-interior.jpg");
+	background-position: center;
+}
+
+/* Story of Thalias */
+/* Story of Thalias */
 
 
 
