@@ -110,7 +110,6 @@ nav {
 /* menu button */
 #menu-button {
 		display: block;
-		width: 5em;
 		padding: 0.2em 1.2em;
 		background-color: #1A2D30;
 		color: white;
@@ -389,12 +388,12 @@ nav a.icon{
 	}
 	
 	#menu-button {
-		margin-left: 35%;
+		float: right;
+		margin-right: 0.7%;
 	}
 	
 	
 	.promotion-background {
-		width:94%;
 		display: grid;
 		grid-template-columns: 100%;
 		grid-column-gap: 3.5%;
