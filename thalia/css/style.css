@@ -38,6 +38,8 @@ body {
 	color: #1A2D30;
 	background-color: #FFFDF5;
 	margin: 3.45% 5%;
+	letter-spacing: 0.5px;
+	line-height: 1.5em;
 }
 
 body h1 {
@@ -86,8 +88,8 @@ img {
 
 
 
-/* nav */
-/* nav */
+/* nav mobile*/
+/* nav mobile*/
 
 /* logo */
 #logo {
@@ -137,7 +139,7 @@ nav #drop-down-nav {
 
 /* Style navigation menu links */
 #drop-down-nav {
-	margin-top: 1.5em;
+	margin-top: 3em;
 	display: block;
 }
 
@@ -170,8 +172,8 @@ nav a.icon{
 	font-weight: 900;
 	color: #1A2D30;
 }
-/* nav */
-/* nav */
+/* nav mobile*/
+/* nav mobile*/
 
 
 
@@ -291,7 +293,7 @@ nav a.icon{
 .sidenote {
 	font-size: 12px;
 	display: block;
-	margin: 0;
+	margin-top: -0.8em;
 }
 
 #actual-drink {
