@@ -70,6 +70,11 @@ img {
 	background-color: #5D726A;
 }
 
+main {
+	display: block;
+	padding-top: 15px;
+}
+
 /* body */
 /* body */
 
@@ -90,11 +95,28 @@ img {
 
 /* nav mobile*/
 /* nav mobile*/
+
+/*fixed nav bar*/
+#nav-mobile-thalia {
+	display: block;
+	position: fixed;
+	z-index: 9999;
+	top:0px;
+	padding-top:10px;
+	margin-left:-5%;
+	height: 60px;
+	width: 100%;
+	background-color: #FFFDF5;
+}
 
 /* logo */
-#logo {
+#logo-thalia {
 	height: 30px;
 	background: none;
+	display: block;
+	float: right;
+	margin-right: 5%;
+	margin-top:3.5px;
 }
 
 
@@ -113,21 +135,25 @@ img {
 /* Style the navigation menu */
 nav {
 	overflow: hidden;
+	display: block;
+	padding-bottom: 10px;
 	position: relative;
 }
 
 /* menu button */
-#menu-button {
-		display: block;
-		padding: 0.2em 1.2em;
-		background-color: #1A2D30;
-		color: white;
-		font-weight: 900;
-		border-radius: 16px;
-		margin-top: 5px;
+#menu-button-nav {
+	padding: 0.2em 1.2em;
+	background-color: #1A2D30;
+	color: #FFFDF5;
+	font-weight: 900;
+	border-radius: 16px;
+	display: block;
+	position: absolute;
+	left: 75px;
+	top: 4px;
 }
 
-a#menu-button:hover {
+a#menu-button-nav:hover {
 	text-decoration: none;
 	color: #B07A1F;
 }
@@ -139,23 +165,27 @@ nav #drop-down-nav {
 
 /* Style navigation menu links */
 #drop-down-nav {
-	margin-top: 3em;
+	padding: 3em 0 0.5em 0;
 	display: block;
+	background-color: #FFFDF5;
 }
 
 #drop-down-nav a {
 	font-weight: 900;
 	color: #1A2D30;
 	text-decoration: none;
-	padding: 0.5em 8% 0 0;
+	width: 100%;
+	padding-left: 5%;
+	background-color: #FFFDF5;
 	display: block;
 }
 
 /* Style the hamburger menu */
-nav a.icon{
+nav a.icon-thalia{
 	display: block;
 	position: absolute;	
-	padding-top: 5px;
+	padding-top: 7px;
+	padding-left: 5%;
 	left: 0;
 	top: 0px;	
 }
