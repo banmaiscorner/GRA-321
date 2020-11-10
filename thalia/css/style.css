@@ -363,29 +363,38 @@ main {
 	/* nav*/
 	#nav-mobile-thalia {
 		display: none;
+		
 	}
 	
-	#nav-desktop {
+	#nav-desktop-thalia {
 		display: block;
 		position: fixed;
-		background-color: #FFFDF5;
 		width: 100%;
 		z-index: 9999;
 	}
 	
 	#logo-thalia-desktop {
 		background: none;
+		display: block;
+		width: auto;
 		height: 3em;
-		
+		margin-top: -30px;
+		z-index: 9999;
 	}
 	
-	#nav-desktop a {
+	#nav-desktop-thalia div{
+		background-color: red;
+		display: block;
+		max-width: 1100px;
+		margin: auto;
+		height: 3em;
+	}
+	
+	#nav-desktop-thalia a {
 		font-weight: 900;
 		color: #1A2D30;
 		text-decoration: none;
-		width: 100%;
 		padding-left: 5%;
-		background-color: #FFFDF5;
 		
 	}
 	
