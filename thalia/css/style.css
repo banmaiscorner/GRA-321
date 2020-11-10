@@ -35,11 +35,11 @@
 body {
 	font-family: "asap";
 	font-size:  16px;
-	color: #1A2D30;
-	background-color: #FFFDF5;
 	margin: 3.45% 5%;
+	color: #1A2D30;
 	letter-spacing: 0.5px;
 	line-height: 1.5em;
+	background-color: #FFFDF5;
 }
 
 body h1 {
@@ -74,6 +74,22 @@ main {
 	display: block;
 	padding-top: 15px;
 }
+
+/* dark bacckground */
+
+.darkforest-background {
+	background-color: #1A2D30;
+	color: #FFFDF5;
+	margin: 0% -5.6%;
+}
+
+.darkforest-background h1 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #FFFDF5;
+}
+
+
 
 /* body */
 /* body */
@@ -240,47 +256,11 @@ nav a.icon-thalia{
 
 #promo {
 	display:block; 
-	padding-bottom: 8%;
+	padding-bottom: 3em;
 }
 
 /* promotion */
 /* promotion */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* dark bacckground */
-/* dark bacckground */
-
-.dark-background {
-	background-color: #1A2D30;
-	color: #FFFDF5;
-	margin: 0% -5.6%;
-}
-
-.dark-background h1 {
-	font-size: 36px;
-	font-weight: 900;
-	color: #FFFDF5;
-}
-
-
-/* dark bacckground */
-/* dark bacckground */
-
-
-
 
 
 
@@ -304,9 +284,9 @@ nav a.icon-thalia{
 /* menu layout */
 .menu-4columns {
 	display: grid;
-	grid-template-columns: 50% 10% 10% 10%;
+	grid-template-columns: 47% 10% 10% 10%;
 	grid-column-gap: 3%;
-	position: relative;
+
 }
 
 .menu-with-big{
@@ -316,8 +296,9 @@ nav a.icon-thalia{
 
 .menu-2columns {
 	display: grid;
-	grid-template-columns: 50% 47%;
-	grid-column-gap: 3%;
+	grid-template-columns: 47% 47%;
+	grid-column-gap: 6%;
+	height: fit-content; 
 }
 
 .sidenote {
@@ -326,13 +307,6 @@ nav a.icon-thalia{
 	margin-top: -0.8em;
 }
 
-#actual-drink {
-	padding: 0 5% 15%;
-}
-
-#actual-snack {
-	padding: 0 5% 15%;
-}
 
 #trail-mix-spacing {
 	display: block;
@@ -354,6 +328,18 @@ nav a.icon-thalia{
 
 #drink-photo {
 	background-image: url("../images/tea feild.jpg");
+}
+
+#actual-drink {
+	padding: 0 5% 15%;
+}
+
+#actual-snack {
+	padding: 0 5% 15%;
+}
+
+#menu {
+	padding-bottom: 3em;
 }
 
 
@@ -444,7 +430,7 @@ nav a.icon-thalia{
 /* Story of Thalias */
 
 #thalias-story {
-	padding: 0 5% 15%;
+	padding: 0 5% 3em;
 }
 
 #thalia-photo {
@@ -472,21 +458,18 @@ nav a.icon-thalia{
 
 
 
-/* about us */
-/* about us */
-#contact {
-	display: block;
-	padding-bottom: 10%;
-}
+/* locations */
+/* locations */
+
 .contact-name {
 	font-weight: 900;
 	color: #B07A1F;
 	display: block;
 	margin-bottom: 0px;
 }
-/* about us */
-/* about us */
 
+/* locations */
+/* locations */
 
 
 
@@ -507,6 +490,57 @@ nav a.icon-thalia{
 
 
 /* media */
+/* media */
+
+
+
+
+/* media desktop*/
+/* media desktop*/
+
+@media (min-width: 768px) {
+	.promotion-background {
+		max-width: 1000px;
+		margin: 2em auto;
+		display: grid;
+		grid-template-columns: 33% auto;
+	}
+	
+	#actual-drink {
+		max-width: 1100px;
+		margin: auto;
+	}
+	
+	#actual-snack {
+		max-width: 1100px;
+		margin: auto;
+	}
+	
+	#aboutus {
+		display: grid;
+		grid-template-columns: 33% auto;
+	}
+	
+	#thalia-photo {
+		height: auto;
+	}
+	
+}
+
+/* media desktop*/
+/* media desktop*/
+
+
+
+
+
+
+
+
+
+
+/* media mobile*/
+/* media mobile*/
 @media (max-width: 767px) {
 	
 	/* logo position */
@@ -522,10 +556,59 @@ nav a.icon-thalia{
 	}
 	
 	
+	
+	
+	
+	
+	
+	
+	/* promotion */
+	/* promotion */
 	.promotion-background {
 		display: grid;
 		grid-template-columns: 100%;
 		grid-column-gap: 3.5%;
 	}
+	/* promotion */
+	/* promotion */
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* menu */
+	/* menu */
+	#menu {
+		display: block;
+	}
+	
+	#actual-drink {
+		display: block;
+	}
+
+	#actual-snack {
+		display: block;
+	}
+	/* menu */
+	/* menu */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* locations */
+	#contact {
+	display: block;
+	padding-bottom: 10%;
+}
 }
