@@ -139,9 +139,10 @@ main {
 	margin: 5% 0;
 }
 
-.promotion-background img{
-		width: 100%;
-	}
+.promo-img{
+	background-image: url("../images/pattern-02.png");
+	background-size: cover;
+}
 
 .promo-content {
 	display: block;
