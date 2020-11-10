@@ -430,10 +430,6 @@ main {
 		grid-template-columns: 33% auto;
 	}
 	
-	.promo-img {
-		height: 20vh;
-		width: 100%;
-	}
 	
 	
 	
@@ -677,6 +673,12 @@ main {
 		display: grid;
 		grid-template-columns: 100%;
 		grid-column-gap: 3.5%;
+	}
+	
+	
+	.promo-img {
+		height: 20vh;
+		width: 100%;
 	}
 	/* promotion */
 	/* promotion */
