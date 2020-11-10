@@ -368,22 +368,25 @@ main {
 	
 	#nav-desktop-thalia {
 		display: block;
+		background-color: #FFFDF5;
 		position: fixed;
 		width: 100%;
 		z-index: 9999;
+		margin-right: -50px;
+		top: 0px;
+		padding: 20px 0 5px 0;
+		left: 0;
 	}
 	
 	#logo-thalia-desktop {
 		background: none;
-		display: block;
 		width: auto;
-		height: 3em;
-		margin-top: -30px;
+		height: 1.5em;
 		z-index: 9999;
 	}
 	
 	#nav-desktop-thalia div{
-		background-color: red;
+		background-color: #FFFDF5;
 		display: block;
 		max-width: 1100px;
 		margin: auto;
@@ -398,7 +401,7 @@ main {
 		
 	}
 	
-	#nav-desktop a:hover {
+	#nav-desktop-thalia a:hover {
 		color: #B07A1F;		
 	}
 	
