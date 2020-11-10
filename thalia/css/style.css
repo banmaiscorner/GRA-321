@@ -139,6 +139,10 @@ main {
 	margin: 5% 0;
 }
 
+.promotion-background img{
+		width: 100%;
+	}
+
 .promo-content {
 	display: block;
 	margin: 3.45% 5% 8% 5%;
@@ -424,6 +428,8 @@ main {
 		grid-template-columns: 33% auto;
 	}
 	
+	
+	
 	#actual-drink {
 		max-width: 1100px;
 		margin: auto;
@@ -523,7 +529,7 @@ main {
 	/* nav mobile*/
 	
 	
-	#nav-desktop {
+	#nav-desktop-thalia {
 		display: none;
 	}
 
