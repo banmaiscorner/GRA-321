@@ -109,117 +109,7 @@ main {
 
 
 
-/* nav mobile*/
-/* nav mobile*/
 
-/*fixed nav bar*/
-#nav-mobile-thalia {
-	display: block;
-	position: fixed;
-	z-index: 9999;
-	top:0px;
-	padding-top:10px;
-	margin-left:-5%;
-	height: 60px;
-	width: 100%;
-	background-color: #FFFDF5;
-}
-
-/* logo */
-#logo-thalia {
-	height: 30px;
-	background: none;
-	display: block;
-	float: right;
-	margin-right: 5%;
-	margin-top:3.5px;
-}
-
-
-/* make icon bar */
-.icon-bar {
-	display: block;
-	background-color: #1A2D30;
-	width: 23px;
-	height: 3px;
-	border-radius: 3px;
-	margin: 4px 0;
-}
-
-
-
-/* Style the navigation menu */
-nav {
-	overflow: hidden;
-	display: block;
-	padding-bottom: 10px;
-	position: relative;
-}
-
-/* menu button */
-#menu-button-nav {
-	padding: 0.2em 1.2em;
-	background-color: #1A2D30;
-	color: #FFFDF5;
-	font-weight: 900;
-	border-radius: 16px;
-	display: block;
-	position: absolute;
-	left: 75px;
-	top: 4px;
-}
-
-a#menu-button-nav:hover {
-	text-decoration: none;
-	color: #B07A1F;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-nav #drop-down-nav {
-	display: none;
-}
-
-/* Style navigation menu links */
-#drop-down-nav {
-	padding: 3em 0 0.5em 0;
-	display: block;
-	background-color: #FFFDF5;
-}
-
-#drop-down-nav a {
-	font-weight: 900;
-	color: #1A2D30;
-	text-decoration: none;
-	width: 100%;
-	padding-left: 5%;
-	background-color: #FFFDF5;
-	display: block;
-}
-
-/* Style the hamburger menu */
-nav a.icon-thalia{
-	display: block;
-	position: absolute;	
-	padding-top: 7px;
-	padding-left: 5%;
-	left: 0;
-	top: 0px;	
-}
-
-/* Add a grey background color on mouse-over */
-#drop-down-nav a:hover {
-	text-decoration: none;
-	color: #B07A1F;
-}
-
-
-/* Style the active link (or home/logo) */
-.active {
-	font-weight: 900;
-	color: #1A2D30;
-}
-/* nav mobile*/
-/* nav mobile*/
 
 
 
@@ -368,38 +258,7 @@ nav a.icon-thalia{
 
 /* store */
 /* store */
-.merch-item {
-	margin: 3% 0 8%;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: nowrap;
-}
 
-.merch-item-wrap {
-	display: inline-grid;
-	padding: 0;
-	width: 60%;
-	margin-right: 5%;
-}
-
-.merch-photo {
-	width: 100%;
-}
-
-.merch-info {
-	display: block;
-	width: 100%;
-	margin-top: 1em;
-}
-
-.merch-name {
-	font-weight: 900;
-	float: left;
-}
-
-.merch-price {
-	float: right;
-}
 
 #store {
 	display: block;
@@ -499,6 +358,53 @@ nav a.icon-thalia{
 /* media desktop*/
 
 @media (min-width: 768px) {
+	
+	
+	/* nav*/
+	#nav-mobile-thalia {
+		display: none;
+	}
+	
+	#nav-desktop {
+		display: block;
+		position: fixed;
+		background-color: #FFFDF5;
+		width: 100%;
+		z-index: 9999;
+	}
+	
+	#logo-thalia-desktop {
+		background: none;
+		height: 3em;
+		
+	}
+	
+	#nav-desktop a {
+		font-weight: 900;
+		color: #1A2D30;
+		text-decoration: none;
+		width: 100%;
+		padding-left: 5%;
+		background-color: #FFFDF5;
+		
+	}
+	
+	#nav-desktop a:hover {
+		color: #B07A1F;		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* body*/
+	/* body*/
+	
+	
 	.promotion-background {
 		max-width: 1000px;
 		margin: 2em auto;
@@ -516,15 +422,69 @@ nav a.icon-thalia{
 		margin: auto;
 	}
 	
-	#aboutus {
+	#thalias-story {
+		max-width: 1100px;
+		margin: auto;
+	}
+	
+	#contact {
+		max-width: 1100px;
+		margin: auto;
+	}
+	
+	#store {
+		max-width: 1100px;
+		margin: auto;
+	}
+	
+	
+	
+	
+	
+	
+	
+	/* store*/
+	/* store*/
+	.merch-item {
 		display: grid;
-		grid-template-columns: 33% auto;
+		grid-template-columns: 22% 22% 22% 22%;
+		grid-gap: 3%
 	}
 	
-	#thalia-photo {
-		height: auto;
+	.merch-photo {
+		width: 100%;
 	}
 	
+	.merch-name {
+		font-weight: 900;
+		padding: 0;
+		margin-top: 1em;
+		margin-bottom: 0;
+	}
+	
+	.merch-price {
+		margin-bottom: 1em;
+	}
+	
+	.merch-item-wrap {
+		margin-bottom: 1em;
+	}
+	
+}
+
+
+@media (min-width: 1200px){
+	#actual-drink {
+		padding: 0 0 3em;
+	}
+	
+	#actual-snack {
+		padding: 0 0 3em;
+	}
+	
+	#thalias-story {
+		padding: 0 0 3em;
+	}
 }
 
 /* media desktop*/
@@ -539,9 +499,133 @@ nav a.icon-thalia{
 
 
 
+
+
+
 /* media mobile*/
 /* media mobile*/
 @media (max-width: 767px) {
+	
+	
+	/* nav mobile*/
+	/* nav mobile*/
+	
+	
+	#nav-desktop {
+		display: none;
+	}
+
+	/*fixed nav bar*/
+	#nav-mobile-thalia {
+		display: block;
+		position: fixed;
+		z-index: 9999;
+		top:0px;
+		padding-top:10px;
+		margin-left:-5%;
+		height: 60px;
+		width: 100%;
+		background-color: #FFFDF5;
+	}
+
+	/* logo */
+	#logo-thalia {
+		height: 30px;
+		background: none;
+		display: block;
+		float: right;
+		margin-right: 5%;
+		margin-top:3.5px;
+	}
+
+
+	/* make icon bar */
+	.icon-bar {
+		display: block;
+		background-color: #1A2D30;
+		width: 23px;
+		height: 3px;
+		border-radius: 3px;
+		margin: 4px 0;
+	}
+
+
+
+	/* Style the navigation menu */
+	nav {
+		overflow: hidden;
+		display: block;
+		padding-bottom: 10px;
+		position: relative;
+	}
+
+	/* menu button */
+	#menu-button-nav {
+		padding: 0.2em 1.2em;
+		background-color: #1A2D30;
+		color: #FFFDF5;
+		font-weight: 900;
+		border-radius: 16px;
+		display: block;
+		position: absolute;
+		left: 75px;
+		top: 4px;
+	}
+
+	a#menu-button-nav:hover {
+		text-decoration: none;
+		color: #B07A1F;
+	}
+
+	/* Hide the links inside the navigation menu (except for logo/home) */
+	nav #drop-down-nav {
+		display: none;
+	}
+
+	/* Style navigation menu links */
+	#drop-down-nav {
+		padding: 3em 0 0.5em 0;
+		display: block;
+		background-color: #FFFDF5;
+	}
+
+	#drop-down-nav a {
+		font-weight: 900;
+		color: #1A2D30;
+		text-decoration: none;
+		width: 100%;
+		padding-left: 5%;
+		background-color: #FFFDF5;
+		display: block;
+	}
+
+	/* Style the hamburger menu */
+	nav a.icon-thalia{
+		display: block;
+		position: absolute;	
+		padding-top: 7px;
+		padding-left: 5%;
+		left: 0;
+		top: 0px;	
+	}
+
+	/* Add a grey background color on mouse-over */
+	#drop-down-nav a:hover {
+		text-decoration: none;
+		color: #B07A1F;
+	}
+
+
+	/* Style the active link (or home/logo) */
+	.active {
+		font-weight: 900;
+		color: #1A2D30;
+	}
+	/* nav mobile*/
+	/* nav mobile*/
+
+	
+	
 	
 	/* logo position */
 	#logo {
@@ -606,9 +690,72 @@ nav a.icon-thalia{
 	
 	
 	
+	
+	
+	
+	
+	
+	/* store */
+	/* store */
+	.merch-item {
+	margin: 3% 0 8%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	}
+
+	.merch-item-wrap {
+		display: inline-grid;
+		padding: 0;
+		width: 60%;
+		margin-right: 5%;
+	}
+
+	.merch-photo {
+		width: 100%;
+	}
+
+	.merch-info {
+		display: block;
+		width: 100%;
+		margin-top: 1em;
+	}
+
+	.merch-name {
+		font-weight: 900;
+		float: left;
+	}
+
+	.merch-price {
+		float: right;
+	}
+	/* store */
+	/* store */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/* locations */
 	#contact {
-	display: block;
-	padding-bottom: 10%;
-}
+		display: block;
+		padding-bottom: 10%;
+	}
 }
