@@ -430,6 +430,11 @@ main {
 		grid-template-columns: 33% auto;
 	}
 	
+	.promo-img {
+		height: 20vh;
+		width: 100%;
+	}
+	
 	
 	
 	#actual-drink {
