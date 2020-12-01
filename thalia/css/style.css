@@ -139,14 +139,24 @@ main {
 	margin: 5% 0;
 }
 
-.promo-img{
-	background-image: url("../images/pattern-02.png");
+.promo-img_1{
+	background-image: url("../images/pro1-special drinks-01.png");
+	background-size: cover;
+}
+
+.promo-img_2{
+	background-image: url("../images/pro2-trailmix-01.png");
+	background-size: cover;
+}
+
+.promo-img_3{
+	background-image: url("../images/pro3-student-01.png");
 	background-size: cover;
 }
 
 .promo-content {
 	display: block;
-	margin: 3.45% 5% 8% 5%;
+	margin: 3.45% 3em 5%;
 }
 
 #promo {
@@ -294,12 +304,15 @@ main {
 /* Story of Thalias */
 
 #thalias-story {
-	padding: 0 5% 3em;
+	display: block;
 }
 
 #thalia-photo {
+	display: block;
 	background-image: url("../images/thalias-interior.jpg");
+	background-size: cover;
 	background-position: center;
+	height: auto;
 }
 
 /* Story of Thalias */
@@ -429,7 +442,7 @@ main {
 		max-width: 1100px;
 		margin: 2em auto;
 		display: grid;
-		grid-template-columns: 33% auto;
+		grid-template-columns: 50% auto;
 	}
 	
 	
@@ -445,7 +458,10 @@ main {
 		margin: auto;
 	}
 	
-	#thalias-story {
+	#aboutus {
+		display: grid;
+		grid-template-columns: 50% auto;
+		grid-gap: 5%;
 		max-width: 1100px;
 		margin: auto;
 	}
