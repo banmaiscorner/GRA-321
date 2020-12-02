@@ -142,16 +142,22 @@ main {
 .promo-img_1{
 	background-image: url("../images/pro1-special drinks-01.png");
 	background-size: cover;
+	height: auto;
+	min-height: 250px;
 }
 
 .promo-img_2{
 	background-image: url("../images/pro2-trailmix-01.png");
 	background-size: cover;
+	height: auto;
+	min-height: 250px;
 }
 
 .promo-img_3{
 	background-image: url("../images/pro3-student-01.png");
 	background-size: cover;
+	height: auto;
+	min-height: 250px;
 }
 
 .promo-content {
