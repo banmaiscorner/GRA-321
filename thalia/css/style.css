@@ -313,6 +313,7 @@ main {
 	background-size: cover;
 	background-position: center;
 	height: auto;
+	min-height: 300px;
 }
 
 /* Story of Thalias */
@@ -776,6 +777,49 @@ main {
 	}
 	/* store */
 	/* store */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* about us */
+	/* about us */
+	
+	#aboutus {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+	
+	#thalias-story {
+		padding: 0 2em 3.5em 2em;
+	}
+	
+	/* about us */
+	/* about us */
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
